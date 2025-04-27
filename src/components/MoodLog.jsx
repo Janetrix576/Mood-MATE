@@ -29,7 +29,7 @@ const MoodTracker = () => {
 
   const fetchMoods = async () => {
     try {
-      const response = await fetch('https://niko-na-moods-aki.onrender.com/moods');
+      const response = await fetch('https://mood-mate-avq6.onrender.com/moods');
       if (!response.ok) throw new Error('Having trouble loading your mood history');
       const moodData = await response.json();
 
@@ -56,7 +56,7 @@ const MoodTracker = () => {
     };
 
     try {
-      const response = await fetch('https://niko-na-moods-aki.onrender.com/moods', {
+      const response = await fetch('https://mood-mate-avq6.onrender.com/moods', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(newMoodEntry)
@@ -75,7 +75,7 @@ const MoodTracker = () => {
   const handleDeleteMood = async (moodId) => {
     setIsLoadingMoods(true);
     try {
-      const response = await fetch(`https://niko-na-moods-aki.onrender.com/moods/${moodId}`, {
+      const response = await fetch(`https://mood-mate-avq6.onrender.com/moods${moodId}`, {
         method: 'DELETE'
       });
       if (!response.ok) throw new Error(`Error ${response.status}: Failed to delete mood`);

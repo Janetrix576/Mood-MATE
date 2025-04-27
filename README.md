@@ -1,14 +1,26 @@
-# React + Vite
+ Mood-Mate
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ Description
+Mood-Mate is an innovative application designed to help users monitor and enhance their emotional well-being. By leveraging mood tracking, analytics, and personalized recommendations, Mood-Mate empowers users to take control of their mental health journey.
 
-Currently, two official plugins are available:
+Features
+-Mood Tracker: One is able to Log and key in their daily emotions and identify patterns over time.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-Analytics and Insights: One is able to gain valuable insights into their mood trends and triggers.
 
-## Expanding the ESLint configuration
+-Personalized Recommendations: Users are able to receive tailored suggestions to improve their mood and overall well-being.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Mood-MATE
-# Mood-MATE
+-Journal: Users are enbled to write down their daily thoughts to improve on their mentall well-being
+
+
+
+ License
+
+This project is licensed under the [MIT License](LICENSE).
+Contact
+
+For questions or feedback, please reach out to us at [your-email@example.com].
+
+---
+
+Thank you for using Mood-Mate! We hope it helps you on your journey to better mental health.
