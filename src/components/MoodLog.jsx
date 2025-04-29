@@ -75,7 +75,7 @@ const MoodTracker = () => {
   const handleDeleteMood = async (moodId) => {
     setIsLoadingMoods(true);
     try {
-      const response = await fetch(`https://mood-mate-avq6.onrender.com/moods${moodId}`, {
+      const response = await fetch(`https://mood-mate-avq6.onrender.com/moods/${moodId}`, {
         method: 'DELETE'
       });
       if (!response.ok) throw new Error(`Error ${response.status}: Failed to delete mood`);
