@@ -50,7 +50,7 @@ const Journal = () => {
   const handleDelete = async (id) => {
     setIsLoading(true);
     try {
-      const res = await fetch(`https://mood-mate-avq6.onrender.com/journals${id}`, {
+      const res = await fetch(`https://mood-mate-avq6.onrender.com/journals/${id}`, {
         method: 'DELETE'
       });
       if (!res.ok) throw new Error('Failed to delete entry');
